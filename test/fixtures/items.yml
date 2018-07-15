@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  itm_name: MyString
+  price: 1
+  brought_by: MyString
+  date: 2018-07-14
+
+two:
+  itm_name: MyString
+  price: 1
+  brought_by: MyString
+  date: 2018-07-14

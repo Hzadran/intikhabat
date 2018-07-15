@@ -1,0 +1,33 @@
+
+<p>
+  <strong>Name:</strong>
+  <%= @holder.f %>
+</p>
+
+<p>
+  <strong>Father name:</strong>
+  <%= @holder.father_nam %>
+</p>
+
+<p>
+  <strong>Tazkira number:</strong>
+  <%= @holder.tazkira_number %>
+</p>
+
+<p>
+  <strong>Mobile number:</strong>
+  <%= @holder.mobile_number %>
+</p>
+
+<p>
+  <strong>Sex:</strong>
+  <%= @holder.sex %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @holder.address %>
+</p>
+<%= link_to 'NEW Entry', new_holder_path(@holder) %> | 
+<%= link_to 'Edit', edit_holder_path(@holder) %> |
+<%= link_to 'Back', holders_path %>

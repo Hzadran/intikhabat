@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  emp_name: MyString
+  emp_father_name: MyString
+  sallary: MyString
+  designation: MyString
+  starting_date: 2018-07-14
+  mobile_number: 1
+
+two:
+  emp_name: MyString
+  emp_father_name: MyString
+  sallary: MyString
+  designation: MyString
+  starting_date: 2018-07-14
+  mobile_number: 1
